@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'poppins', sans-serif;
+}
+.modak-regular {
+  font-family: "Modak", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.heroe-text{
+    font-size: 6rem;
+    color: #fff;
+    text-align: center;
+    padding-top: 100px;
+
+}
+.fa-magnifying-glass{
+    font-size: 6rem;
+    color: #fff;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.banner{
+background-image:url(/Quickserch_photos/chalk_board.jpg);
+ 
+height: 400px;
+width: 100%;
+background-size: cover;
+background-repeat: no-repeat;
+display: flex;
+flex-direction: row;
+gap: 20px;
+justify-content:center;
+}
