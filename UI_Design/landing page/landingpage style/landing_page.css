@@ -24,6 +24,45 @@ body{
     padding-top: 80px;
 
 }
+
+nav{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-self:right;
+    padding: 30px 60px 0 0;
+    /* outline:1px solid yellow */
+}
+
+
+.navlink{
+    font-size: 15px;
+    color: white
+    ;
+    text-decoration: none;
+    padding-top: 6px;
+    font-weight: 700;
+    border-bottom: 1px solid white; 
+    margin-bottom: 3px;
+   
+
+
+}
+
+.nav_button{
+    padding: 7px;
+    border-radius:5px;
+    border: none;
+    color: #f3f0f0;
+    background-color: #f85d03b0;
+    
+    
+}
+
+.nav_button:hover{
+    cursor:pointer;
+}
+
 .fa-magnifying-glass{
     font-size: 6rem;
     color: #fff;
@@ -58,40 +97,101 @@ justify-content:center;
 
 /* SUB HEAD */
  .sub_head{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.521), rgba(0, 0, 0, 0.836)),url(/Quickserch_photos/student_and_tutors.jpeg);
+    background-image: linear-gradient(rgba(209, 205, 205, 0.521), rgba(0, 0, 0, 0.836)),url(/Quickserch_photos/student_and_tutors.jpeg);
     background-size: cover;
-    height: 300px;
+    height: 400px;
     background-attachment: fixed;
     width: 100%;
  }
 
- .sub_head_box{
-   
- }
 
+ 
  .sub_text{
-    font-size: rem;
-    color: #fff; 
+    font-size: 20px;
+    color: #f5f2f2; 
     text-align: center;
     margin: 0 auto;
-    padding-top: 70px;
+    padding-top: 80px;
     justify-self: center;
-    margin-top: 40px;
-    font-size: 2rem;
+    margin-bottom: 40px;
+    font-weight: 400;
+    width: 50%;
+    font-style: italic;
+ }
+
+ .button_box{
+   
+    background-color: #fff;
+    width: 50%;
+   
+    justify-content: center;
+    justify-self: center;
+    border-radius: 20px;
+ }
+
+ .sub_box{
+    justify-self:center;
+    /* outline: 1px solid red; */
+}
+
+ .buttonb_sub{
+    padding-top: 20px;
+    font-size: 20px;
+    color:rgba(4, 193, 250, 0.315);
     
+      
+ }
+
+
+ .btn_body{
+ padding: 10px 60px 30px 60px; 
+   display: flex;
+    flex-direction: row;
+     justify-content: center;
+    justify-self: center;
+     gap: 30px;
+        /* border-bottom: 1px solid yellow; */
+ }
+
+ .main-btn {
+    font-style: italic;
+    font-size: 15px;
+    background: transparent;
+    /* border: 1px solid  rgb(46, 134, 105); */
+    box-shadow:  1px 0px 3px 1px rgba(228, 223, 223, 0.521);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+ 
 
  }
+
+ .main-btn:hover{
+    cursor: pointer;
+     box-shadow:  1px 2px 3px 1px rgba(228, 223, 223, 0.521);
+ }
+
+    
+
+
 /* SIGN UP */
 
 
 /* FOOTER */
 footer{
-  
-  background-image: url(/Quickserch_photos/camera_magnifier.jpg);
+   background-image: linear-gradient(rgba(0, 0, 0, 0.521), rgba(0, 0, 0, 0.836)),url(/Quickserch_photos/camera_magnifier.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
   text-align: center;
   padding: 20px 0;
   height: 300px;
+  
+}
+
+
+.footer-logo{
+    color: red;
+    margin-top: 30px;
 }
