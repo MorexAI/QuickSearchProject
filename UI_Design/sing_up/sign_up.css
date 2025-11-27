@@ -145,7 +145,9 @@ input{
     border-bottom: 1px solid #46945d; 
     outline: none;
     border: none;
+    color: rgba(0, 255, 255, 0.171);
    align-self: center;
+   background-color: rgba(247, 244, 244, 0.377);
    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
 }
 
