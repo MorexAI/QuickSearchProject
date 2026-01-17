@@ -1,0 +1,77 @@
+@media (max-width: 1024px) {
+  .heroe-text {
+    font-size: 4rem;
+    padding-top: 60px;
+  }
+  .fa-magnifying-glass {
+    font-size: 4rem;
+    padding-top: 40px;
+  }
+  .wf-sub {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  nav {
+    justify-content: center;
+    padding: 20px 20px 0 20px;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .navlink {
+    font-size: 14px;
+  }
+  .nav_button {
+    font-size: 0.9rem;
+    padding: 6px 10px;
+  }
+  .heroe-text {
+    font-size: 3rem;
+    padding-top: 40px;
+  }
+  .fa-magnifying-glass {
+    font-size: 3rem;
+    padding-top: 20px;
+  }
+  .description {
+    font-size: 1.4rem;
+    padding-bottom: 40px;
+    padding-inline: 20px;
+  }
+  .workflow {
+    height: auto;
+    padding: 20px;
+  }
+  .wf-heading {
+    text-align: center;
+  }
+  .wf-sub {
+    font-size: 16px;
+    text-align: center;
+    padding-inline: 10px;
+  }
+  .wf-desc-box {
+    flex-direction: column;
+    align-items: center;
+  }
+  .wf-student-img {
+    width: 80%;
+  }
+  .wf-img-txt {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .heroe-text {
+    font-size: 2.4rem;
+  }
+  .fa-magnifying-glass {
+    font-size: 2.4rem;
+  }
+  .wf-sub {
+    font-size: 14px;
+  }
+}
+
