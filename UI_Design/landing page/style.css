@@ -37,6 +37,17 @@ header {
     background-color: transparent; /* Blends in */
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 36px;
+    width: auto;
+    display: block;
+}
+
 nav a {
     color: var(--text-grey);
     margin-left: 20px;
