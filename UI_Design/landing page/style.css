@@ -40,12 +40,14 @@ header {
 .logo {
     display: flex;
     align-items: center;
+    margin-top: 3rem;
 }
 
 .logo img {
-    height: 36px;
-    width: auto;
+    height: 56px;
+    width: 9rem;
     display: block;
+    object-fit: cover;
 }
 
 nav a {
